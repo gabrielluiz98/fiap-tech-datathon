@@ -1,4 +1,4 @@
-# 🚀 Datathon: Case Passos Mágicos - Machine Learning Engineering
+# Datathon: Case Passos Mágicos - Machine Learning Engineering - FIAP Tech Challenge
 
 ## 1) Visão Geral do Projeto
 
@@ -162,4 +162,5 @@ Nossa arquitetura foi desenhada para cobrir todo o ciclo de vida do dado:
 4.  **Avaliação do Modelo:** A métrica principal de negócio priorizada foi a **Revocação (Recall)**. No contexto educacional, minimizar falsos negativos (não identificar um aluno que precisa de ajuda) é muito mais crítico do que minimizar falsos positivos.
 
 5.  **Monitoramento Contínuo (Drift):** A API salva em tempo real os dados recebidos em um log (arquivo CSV). Através do script `gerar_dashboard.py`, a biblioteca `Evidently` compara a distribuição desses novos dados com a base histórica de treino, gerando um painel HTML interativo (`monitoramento_drift_estudantes.html`) para monitoramento de _Data Drift_.
+
 # fiap-tech-datathon
